@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<? if ($_POST['password'] == "magda") // w miejsce * należy wpisać swoje hasło
+{
+echo '
+//TUTAJ JEST CAŁY KOD STRONY WWW
+';
+}
+else
+{ // formularz do wpisania hasła
+echo '
+<form action="index.php" method="post">
+Podaj hasło: <input type="password" name="password"/>
+<input type="submit" name="submit" value="Loguj"/>
+</form>';
+}
+?>
+<head>
+<meta charset="UTF-8">
+<link href="C:\Users\szopa\Desktop\stronatestowa1\new2.css" rel="stylesheet" type="text/css">
+<title>strona xd</title>
+<h1>TYTUL<h1>
+</head>
+<body>
+<p class="tabela1">tytul tabeli</p>
+<p>     bvhvjhv</p>
+<ol>
+<li>opcja 1</li>
+<li>opcja 2</li>
+<li>opcja 3</li>
+<li>opcja 4</li>
+</ol>
+</body>
+</html>
